@@ -895,6 +895,10 @@ namespace GoogleIma
 		[Export("autoPlayAdBreaks")]
 		bool AutoPlayAdBreaks { get; set; }
 
+		// @property (assign, readwrite, nonatomic) BOOL disableNowPlayingInfo;
+        [Export("disableNowPlayingInfo")]
+        bool DisableNowPlayingInfo { get; set; }
+
 		// @property (copy, nonatomic) NSString * playerType;
 		[Export("playerType")]
 		string PlayerType { get; set; }
